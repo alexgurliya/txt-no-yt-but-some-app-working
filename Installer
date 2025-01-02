@@ -30,4 +30,3 @@ itsdangerous==2.0.1
 cloudscraper
 pytube
 youtube-dl
-yt-dlp --upgrade
