@@ -29,3 +29,5 @@ werkzeug==2.0.2
 itsdangerous==2.0.1
 cloudscraper  #newadded
 pytube
+youtube-dl
+yt-dlp --upgrade
