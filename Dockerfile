@@ -10,11 +10,5 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir --upgrade -r Installer
 
-RUN pip3 install pytube
-
-RUN pip3 install yt-dlp
-
-RUN pip3 install cloudscraper
-
 #CMD ["python3", "modules/main.py"]
 CMD gunicorn app:app & python3 main.py
