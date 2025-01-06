@@ -178,7 +178,7 @@ async def account_login(bot: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = '@JSRBots🩷'
+        CR = '@NPTBots🩷'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -331,7 +331,7 @@ async def account_login(bot: Client, m: Message):
                           
                 else:
                     Show = f"❊⟱ डाउनलोड हो रहा  ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By JSR **")
+                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By NPT **")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
